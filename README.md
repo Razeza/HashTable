@@ -26,4 +26,9 @@ Strlen: \
 ![](https://github.com/Razeza/HashTable/raw/master/image%20and%20result/strlen.png)  \
 and I was surprised by the results: 
 ![](https://github.com/Razeza/HashTable/raw/master/image%20and%20result/res_table.png)  \
-As you see I won compiler option -O3, so I ended my optimization
+As you see I won compiler option -O3, so I ended my optimization \
+Coefficents:
+| Type               | -O0  | -O2  | -O3  |
+|--------------------|------|------|------| 
+| Without inline asm | 0.57 | 0.88 | 1.00 | 
+| Inline asm         | 1.09 | 1.23 | 1.26 |
